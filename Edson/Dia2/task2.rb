@@ -5,6 +5,7 @@ c=3
 d=5
 e= a/d
 <<<<<<< HEAD
+<<<<<<< HEAD
 f= 2
 
 puts "resta #{a} y #{b}: #{a-b}"
@@ -44,6 +45,8 @@ puts "Signo and : #{a and b}"
 puts "Signo or : #{a or d}"
 puts "Signo ! : #{!(c == d)}"
 =======
+=======
+>>>>>>> a67cff29296329d295d3278dcf26330414d58b0b
 
 puts "si a=10 y b=2 la resta es:,  si d = 5 la operacion de a / d es:"
 puts "resta: #{a-b}"
@@ -63,4 +66,7 @@ puts "#{seg} segundos, en horas es #{hrs} horas"
 puts "#{seg} segundos, en dia es #{dia} dias"
 
 
+<<<<<<< HEAD
+>>>>>>> a67cff29296329d295d3278dcf26330414d58b0b
+=======
 >>>>>>> a67cff29296329d295d3278dcf26330414d58b0b

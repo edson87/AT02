@@ -1,0 +1,8 @@
+$ ruby task2.1.rb
+convert seconds in minutes, seconds in hours and second in days
+
+Ingrese el numero
+800000
+800000 segundos, en minutos es 13333 minutos
+800000 segundos, en horas es 222 horas
+800000 segundos, en dia es 9 dias

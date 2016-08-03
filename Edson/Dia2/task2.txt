@@ -1,0 +1,24 @@
+EdsonLopez@B201-02 MINGW64 ~/Documents/BDT/Dia2
+$ ruby task2.rb
+resta 10 y 2: 8
+suma de 10 y 3: 13
+division de 10 y 5: 2
+multiplicacion de 2 y 3: 6
+a es mayor que d
+b y f son iguales
+signos <=>: 1
+signos <=>: 0
+signos <=>: -1
+signo ===: false
+signo ===: true
+signo .eql?: false
+signo .equal: true
+Signo = : 2
+Signo += : 5
+Signo /= : 0
+Signo **=: 25
+Signo %= : 2
+
+Signo and : 5
+Signo or : 0
+Signo ! : true
