@@ -1,0 +1,22 @@
+# ruby_cucumber_course
+
+Practice for ruby and cucumber for AT02
+
+Folder for scripts and code for:
+
+Edson Percy Lopez Cortez
+
+
+
+#Task1
+
+What is ruby?
+R.- Is lenguage of development dinamic and open source, it is focused on simplicity and productivity
+
+What pros/cons you considered from the point explained in the class
+R.- Pros:  Is open source and dinamic
+     Cons: Her simplicity can be her contra 
+
+According what we talked today, what are the 3 testing tiers?
+R.- UI testing, services, backend
+
