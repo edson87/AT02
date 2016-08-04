@@ -1,0 +1,5 @@
+$ ruby gets3.rb
+edson
+28
+Insertar el nombre y la edad de la persona
+La edad de 28 anios, en minutos es 14716800 minutos

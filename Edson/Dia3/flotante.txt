@@ -1,0 +1,4 @@
+$ ruby flotante.rb
+3.5
+Inserte un numero flotante
+El numero flotante es 3.5

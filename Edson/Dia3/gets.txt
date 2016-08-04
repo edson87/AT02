@@ -1,0 +1,5 @@
+$ ruby gets.rb
+edson
+Whats is your name ?
+
+Hi edson!! How are you today

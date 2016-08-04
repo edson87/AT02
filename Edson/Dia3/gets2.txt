@@ -1,0 +1,5 @@
+$ ruby gets2.rb
+50
+23
+Inserte los dos perimetros
+El perimetro es 1150.0

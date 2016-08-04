@@ -1,0 +1,4 @@
+$ ruby gets1.rb
+5
+Give a number:
+A result number is: 105

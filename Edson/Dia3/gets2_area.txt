@@ -1,0 +1,4 @@
+$ ruby gets2.rb
+24
+Inserte el valor de la radio
+El area es 150.79644737231007
