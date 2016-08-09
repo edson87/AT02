@@ -1,0 +1,16 @@
+Insert your name
+edson
+Inser the city would you like to go
+
+Insert the price
+60
+edson go to CBBA the price is 8.61$
+
+
+Insert your name
+edson
+Inser the city would you like to go
+lp
+Insert the price
+80
+edson go to lp the price is 11.48$

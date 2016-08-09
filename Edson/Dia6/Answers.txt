@@ -1,0 +1,14 @@
+
+Format: 
+
+Classes: For rules i use Upercase in the first lether to construct a class
+
+Methods:i use parenthesis in the methods when instance some value
+
+Variables, Getter/Setter: like to use user attr_... becouse is short key,
+but i have a some problems to see when i need to use attr_. I think i like 
+to conbine use getter/setter attr_writer/attr_setter and attr_accesses 
+
+if condition: i use Control Statementsshort-if expression becouse is more fast and 
+easy to use
+
