@@ -4,8 +4,8 @@ class MyCar
 	attr_writer :year
 	attr_writer :model
 
-	 def initialize(current_speed)
-	 	@current_speed = current_speed
+	 def initialize()
+	 	@current_speed = 0
 
 	 end
 

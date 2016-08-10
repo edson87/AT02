@@ -15,17 +15,25 @@ pass = Passage.new
 puts "Insert your name"
 name = gets.chomp
 
-puts "Inser the city would you like to go"
-city = gets.chomp.to_s
-
 puts "Insert the price"
-price = gets.chomp
+price = gets.chomp.to_i	
 
-if city == ""
+puts "Would you introduce a city [Y/N]"
+answer = gets.chomp.to_s
 
-	pass.requeriments name, price
-else
+if answer == "Y" || answer == "y"
+	puts "Insert the city would you like to go !"
+	city = gets.chomp.to_s
+
 	pass.requeriments name, price, city	
+
+elsif answer == "N" || answer == "n"
+	pass.requeriments name, price
+	
+else
+	puts "Would you introduce a city [Y/N]"
+	answer = gets.chomp.to_s
+
 end
 
 

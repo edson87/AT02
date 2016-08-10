@@ -1,14 +1,47 @@
 
-Format: 
+Format:
+-value for declare
+Depending the requeriments example: reade a name and the age person
+name = " "
+age = " "
 
-Classes: For rules i use Upercase in the first lether to construct a class
+-To prints in console
+prints " "	
 
-Methods:i use parenthesis in the methods when instance some value
+-to inputs
+value = gets.chomp.to_i, value = gets.chomp.to_s, value = gets.chomp.to_f
 
-Variables, Getter/Setter: like to use user attr_... becouse is short key,
-but i have a some problems to see when i need to use attr_. I think i like 
-to conbine use getter/setter attr_writer/attr_setter and attr_accesses 
+-Operators
++, -, /, *, ==, !=, <=, =>, ||, &&
 
-if condition: i use Control Statementsshort-if expression becouse is more fast and 
-easy to use
+-
+
+Classes: 
+
+class MyClass ... end
+class MyClass_Caracteristic ... end
+
+Methods:
+
+def initialize(number1, number2) ... end
+
+i use this type of format or method
+def initialize number1,number2 ... end 
+
+
+Variables, Getter/Setter: 
+
+attr_reader :
+attr_writer :
+attr_access :
+
+but in specifics times i use a normal format to declare
+
+def inisilice var1, var2
+......
+end
+
+-Control stetaments
+
+if ... then ... else ... end
 
