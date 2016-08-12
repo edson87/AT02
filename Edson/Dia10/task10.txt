@@ -1,0 +1,17 @@
+$ ruby task10.rb
+method2
+-------
+element in common ["a", "b"]
+The first element the first array is: a , the first element the second array is:
+ 1
+The last element the first array is: c , the last element the second array is: b
+
+method3
+--------
+Join to arrays [1, 2, 3, 4, 5, 6, "a", "b", "c"]
+First element 1
+Last element c
+
+method4
+-------
+[[1, 2, 3, 4, 5, 6, "a", "b", "c"]]
