@@ -1,0 +1,15 @@
+Cantidad
+polera cantidad 100 unidades
+gorras cantidad 200 unidades
+camisa cantidad 20 unidades
+
+Costo
+1: La polera cuesta 150 Bs.
+2: La gorras cuesta 50 Bs.
+3: La camisa cuesta 100 Bs.
+Choose the name items would you like
+polera
+How many  would you like buy
+2
+
+El precio es: 300 Bs
