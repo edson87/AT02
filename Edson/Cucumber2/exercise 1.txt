@@ -1,0 +1,20 @@
+2.- run using --dry -run
+
+C:\Users\edson\Documents\JALASOFT\BDT\Dia15\cucumber\features>cucumber file.feature --dry -run
+
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+0 scenarios
+0 steps
+
+3.- run without using --dry -run
+C:\Users\edson\Documents\JALASOFT\BDT\Dia15\cucumber\features>cucumber file.feature
+
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+0 scenarios
+0 steps
+0m0.000s
+
+4 .-Differences
+without use --dry -run i can see the second that the system takes in process and using --dry -run i can't

@@ -1,0 +1,73 @@
+1.-  Install cucumber and showing her librarys
+
+E:\Instaladores\Dia15>gem list
+
+*** LOCAL GEMS **
+
+bigdecimal (1.2.6)
+builder (3.2.2)
+cucumber (2.4.0)
+cucumber-core (1.5.0)
+cucumber-wire (0.0.1)
+diff-lcs (1.2.5)
+gherkin (4.0.0)
+io-console (0.4.3)
+json (1.8.1)
+minitest (5.4.3)
+multi_json (1.12.1)
+multi_test (0.1.2)
+power_assert (0.2.2)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+test-unit (3.0.8)
+
+2.- Delating all librarys and showing gem list
+
+C:\Ruby22\bin>ruby uninstall_complate.txt
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "bigdecimal" cannot be uninstalled because it is a default ge
+
+Successfully uninstalled builder-3.2.2
+Successfully uninstalled cucumber-core-1.5.0
+Successfully uninstalled cucumber-wire-0.0.1
+Removing htmldiff
+Removing ldiff
+Successfully uninstalled diff-lcs-1.2.5
+Successfully uninstalled gherkin-4.0.0
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "io-console" cannot be uninstalled because it is a default ge
+
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "json" cannot be uninstalled because it is a default gem
+
+Successfully uninstalled minitest-5.4.3
+Successfully uninstalled multi_json-1.12.1
+Successfully uninstalled multi_test-0.1.2
+Successfully uninstalled power_assert-0.2.2
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "psych" cannot be uninstalled because it is a default gem
+
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "rake" cannot be uninstalled because it is a default gem
+
+ERROR:  While executing gem ... (Gem::InstallError)
+    gem "rdoc" cannot be uninstalled because it is a default gem
+
+Successfully uninstalled test-unit-3.0.8
+INFO:  Uninstalled all gems in 
+
+
+E:\Instaladores\Dia15>gem list
+
+*** LOCAL GEMS ***
+
+bigdecimal (1.2.6)
+io-console (0.4.3)
+json (1.8.1)
+psych (2.0.8)
+rake (10.4.2)
+rdoc (4.2.0)
+
+
+
