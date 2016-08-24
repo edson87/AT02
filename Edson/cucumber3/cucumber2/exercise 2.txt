@@ -1,0 +1,209 @@
+1.- Insert a case scenario
+
+C:\Users\edson\Documents\JALASOFT\BDT\Dia15\cucumber\features>cucumber file.feature
+
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansic
+on/) to get coloured output on Windows
+#
+# features created by edson.files-2016-copyright
+#
+Feature: Aritmetic Operation
+This is the description of the feature aritmetic operation.
+In this feacture i will do an operation examples addition,
+subtraction multiplication division.
+
+The user to enter two numbers and the program calculates
+your score.
+
+  Scenario: Aritmetic Operation for a additioin # file.feature:16
+    Given The user insert 2 numbers             # file.feature:17
+    And select the addition operation           # file.feature:18
+    When Press the button equals                # file.feature:19
+    Then The program give a result              # file.feature:20
+
+1 scenario (1 undefined)
+4 steps (4 undefined)
+0m0.095s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^The user insert (\d+) numbers$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^select the addition operation$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^Press the button equals$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^The program give a result$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+
+
+
+
+
+
+2.- Create a new features and write my dealy activities
+
+
+C:\Users\edson\Documents\JALASOFT\BDT\Dia15\cucumber\features>cucumber daily.feture
+
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansi
+on/) to get coloured output on Windows
+
+Feature: My daily activities
+I this feature i describe my daily activities
+starting from a when to make up in the morming
+util i go to the bed
+
+  Scenario: My daily activities in the morning                 # daily.feature:
+
+    Given I make up at 8:30 am i wait a few minutes for get up # daily.feature:
+0
+    And i go to a breakfast i take about 30 minutes            # daily.feature:
+1
+    And i goint to take a shawer i late 30 minutes             # daily.feature:
+2
+    And i wearing some wearn                                   # daily.feature:
+3
+    And i going to the fundation                               # daily.feature:
+4
+    When I arrive to fundation i wait the coach                # daily.feature:
+5
+    And the coach comes the class                              # daily.feature:
+6
+    And i wait to finish the class for 1.5 hrs                 # daily.feature:
+7
+    And the class is fish i go to my house to eat              # daily.feature:
+8
+    Then I arrive my house                                     # daily.feature:
+9
+    And i eat a soup                                           # daily.feature:
+0
+    And i rest a few minutes                                   # daily.feature:
+1
+
+  Scenario: My daily activities in the afternoon                # daily.feature
+24
+    Given I going to fundation 1:30 pm                          # daily.feature
+25
+    When I arrive the fundation                                 # daily.feature
+26
+    And i wait the coach                                        # daily.feature
+27
+    And the coach comes i wait for 1 hour                       # daily.feature
+28
+    And i take 2 hours to break                                 # daily.feature
+29
+    And in this hours i do my task or i read                    # daily.feature
+30
+    And at 5:00 pm i going to class englis i wait for 1 hour    # daily.feature
+31
+    And the class is finish i goint to wait for the other class # daily.feature
+32
+    And the coach comes i wait for 1.5 hrs                      # daily.feature
+33
+    And the class finish return my house                        # daily.feature
+34
+
+2 scenarios (2 undefined)
+22 steps (22 undefined)
+0m0.095s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^I make up at (\d+):(\d+) am i wait a few minutes for get up$/) do |arg1
+ arg2|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^i go to a breakfast i take about (\d+) minutes$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^i goint to take a shawer i late (\d+) minutes$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^i wearing some wearn$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^i going to the fundation$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I arrive to fundation i wait the coach$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^the coach comes the class$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^i wait to finish the class for (\d+)\.(\d+) hrs$/) do |arg1, arg2|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^the class is fish i go to my house to eat$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^I arrive my house$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^i eat a soup$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then(/^i rest a few minutes$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given(/^I going to fundation (\d+):(\d+) pm$/) do |arg1, arg2|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^I arrive the fundation$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^i wait the coach$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^the coach comes i wait for (\d+) hour$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^i take (\d+) hours to break$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^in this hours i do my task or i read$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^at (\d+):(\d+) pm i going to class englis i wait for (\d+) hour$/) do |a
+g1, arg2, arg3|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^the class is finish i goint to wait for the other class$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^the coach comes i wait for (\d+)\.(\d+) hrs$/) do |arg1, arg2|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When(/^the class finish return my house$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
