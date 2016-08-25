@@ -1,0 +1,33 @@
+C:\Users\edson\Documents\JALASOFT\BDT\cucumber3>cucumber features/exampleforeachsteps.feature
+
+Feature: Example for each step
+In this feature describe an exaples for each step learned
+mark modifier, multiple captures, noncapturein groups
+
+Scenario: Example for mark modided 1 # features/exampleforeachsteps.feature:7
+    Given insert your first name       # features/step_definitions/step_exampleforeachsteps.rb:3
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/step_exampleforeachsteps.rb:4:in `/^insert your first name$/'
+       features/exampleforeachsteps.feature:8:in `Given insert your first name'
+    And insert your second name        # features/exampleforeachsteps.feature:9
+  Scenario: Example for mark modided 2 # features/exampleforeachsteps.feature:11
+    Given insert phone namber          # features/step_definitions/step_exampleforeachsteps.rb:9
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/step_exampleforeachsteps.rb:10:in `/^insert phone namber$/'features/exampleforeachsteps.feature:12:in `Given insert phone namber'
+    And insert your phone numbers      # features/step_definitions/step_exampleforeachsteps.rb:12
+
+  Scenario: Example for multiples captures 1 # features/exampleforeachsteps.feature:16
+    Given i deposit $100 in BNB account      # features/exampleforeachsteps.feature:17
+
+  Scenario: Example for multiples captures 2 # features/exampleforeachsteps.feature:20
+    Given her street is R.Cortez 547         # features/exampleforeachsteps.feat
+ure:21
+  Scenario: Example for noncapturing group 1 # features/exampleforeachsteps.feature:23
+    Given insert your genere male or female  # features/exampleforeachsteps.feature:24
+
+  Scenario: Example for noncapturing group 2         # features/exampleforeachsteps.feature:27
+    Given select the dificult hard or medium or easy # features/exampleforeachsteps.feature:28
+
+6 scenarios (4 undefined, 2 pending)
+8 steps (1 skipped, 5 undefined, 2 pending)
+0m1.686s

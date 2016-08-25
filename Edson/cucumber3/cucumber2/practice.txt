@@ -1,0 +1,23 @@
+C:\Users\EdsonLopez\Documents\BDT\Dia17\cucumber2>cucumber features/practice.feature
+*** WARNING: You must use ANSICON 1.31 or higher (https://github.com/adoxa/ansicon/) to get coloured output on Windows
+#
+#       written by edson.lopez copyright
+#
+Feature: Insert your account
+The user will insert her account
+and the program verifi if the user
+have or dont have account
+
+  Scenario: Insert your account        # features/practice.feature:10
+    Given I select "Sign in" to create # features/practice.feature:11
+    When I finish to Sign in           # features/step_definitions/step_practice.rb:7
+    Then I login with my account       # features/step_definitions/step_practice.rb:11
+
+  Scenario: Insert your account        # features/practice.feature:15
+    Given I select "Create an account" # features/practice.feature:16
+    When I finish to Sign in           # features/step_definitions/step_practice.rb:7
+    Then I login with my account       # features/step_definitions/step_practice.rb:11
+
+2 scenarios (2 undefined)
+6 steps (4 skipped, 2 undefined)
+0m0.066s

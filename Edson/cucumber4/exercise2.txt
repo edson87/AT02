@@ -1,0 +1,59 @@
+
+C:\Users\edson\Documents\JALASOFT\BDT\cucumber3>cucumber features/form.feature
+Feature: Form gmail test
+this feature describes the steps to perform the test of
+the new form of gmail
+
+  Scenario: Name Form                                             # features/form.feature:7
+    Given The box firs name only has to recive characteres: First # features/form.feature:8
+    And the box last name only has to recive characters: Last     # features/step_definitions/step_form.rb:5
+    When The user insert her first name and last name             # features/step_definitions/step_form.rb:9
+    Then the name form is validate                                # features/step_definitions/step_form.rb:13
+
+  Scenario: Email Form                                    # features/form.feature:13
+    Given The box email your has insert your email: email # features/form.feature:14
+    When The user insert her email                        # features/step_definitions/step_form.rb:21
+    Then the email form is validate                       # features/step_definitions/step_form.rb:25
+
+  Scenario: Password Form                                                  # features/form.feature:18
+    Given The box password only has to recive all characteristic: password # features/form.feature:19
+    And you have to confirm your passowrd : password                       # features/step_definitions/step_form.rb:33
+    When The user insert her password                                      # features/step_definitions/step_form.rb:37
+    And confirm the password                                               # features/step_definitions/step_form.rb:41
+    Then the password form is validate                                     # features/step_definitions/step_form.rb:45
+
+  Scenario: Birthday Form
+                                                            # features/form.feature:25
+    Given The box Month se pone el mes respectivo: enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,dicienbre # features/form.feat
+ure:26
+    And the box day insert with only number: day
+                                                            # features/form.feature:27
+    And the box year insert only number: year
+                                                            # features/form.feature:28
+    When The user insert her month
+                                                            # features/step_definitions/step_form.rb:61
+    And the user insert the day
+                                                            # features/step_definitions/step_form.rb:65
+    And the user insert the year
+                                                            # features/step_definitions/step_form.rb:69
+    Then the brithday form is validate
+                                                            # features/step_definitions/step_form.rb:73
+
+  Scenario: Gender Form                                                 # features/form.feature:34
+    Given The box Gender only has to recive characteres: male or famele # features/form.feature:35
+    When The user insert her Gender                                     # features/step_definitions/step_form.rb:81
+    Then the Gender form is validate                                    # features/step_definitions/step_form.rb:85
+
+  Scenario: Mobile Phone Form                                                                   # features/form.feature:39
+    Given The box mobile phone only has to recive numbers ans characteres: phone                # features/form.feature:40
+    When The user insert her number                                                             # features/step_definitions/step_form.rb:93
+    Then The box number phone is validate                                                       # features/step_definitions/step_form.rb:97
+
+  Scenario: Current Email Address Fomr                                  # features/form.feature:44
+    Given The box recive all characteres : currenteEmail                # features/form.feature:45
+    When The user insert her current email                              # features/step_definitions/step_form.rb:105
+    Then The box current email is validate                              # features/step_definitions/step_form.rb:109
+
+7 scenarios (7 undefined)
+28 steps (19 skipped, 9 undefined)
+0m4.004s

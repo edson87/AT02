@@ -1,0 +1,19 @@
+C:\Users\edson\Documents\JALASOFT\BDT\cucumber3>cucumber features/fly.feature
+Feature: flights
+Description the flights
+
+  Scenario: Fly1                              # features/fly.feature:4
+    Given The flight EZY4567 is leaving today # features/fly.feature:5
+    And The fly is in the roon 3              # features/step_definitions/step_fly.rb:7
+
+  Scenario: Fly2                           # features/fly.feature:8
+    Given The flight C038 is leaving today # features/fly.feature:9
+    And The fly is in the roon 1           # features/step_definitions/step_fly.rb:7
+
+  Scenario: Fly3                              # features/fly.feature:12
+    Given The flight BA01618 is leaving today # features/fly.feature:13
+    And The fly is in the roon 4              # features/step_definitions/step_fly.rb:7
+
+3 scenarios (3 undefined)
+6 steps (3 skipped, 3 undefined)
+0m0.593s
