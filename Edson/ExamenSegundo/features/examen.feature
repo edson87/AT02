@@ -3,13 +3,14 @@
 Feature: Reservation
 descrive a reservation for a flight
 
+
 Background: Simulation 
 Given insert user user1
 When insert password 123
 Then I see Massage
 
 
-
+@outline
 Scenario Outline: flys
 Given I select my origen: <from>
 	And Select my arrive: <to>
